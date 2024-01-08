@@ -2,6 +2,10 @@
 import com.codeborne.selenide.Selenide;
 import org.junit.Assert;
 import org.junit.Test;
+import pages.AnkeyIdmPage;
+import pages.GagIsRuPage;
+import pages.GazPage;
+import pages.MainPage;
 
 public class YandexTest extends BaseTest {
     private final static String BASE_URL = "https://yandex.ru/";
